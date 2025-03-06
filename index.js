@@ -208,17 +208,17 @@
 
   function showSceneList() {
     sceneListElement.classList.add('enabled');
-    sceneListToggleElement.classList.add('enabled');
+    sceneListToggleElement.classList.add('disabled');
   }
 
   function hideSceneList() {
     sceneListElement.classList.remove('enabled');
-    sceneListToggleElement.classList.remove('enabled');
+    sceneListToggleElement.classList.remove('disabled');
   }
 
   function toggleSceneList() {
     sceneListElement.classList.toggle('enabled');
-    sceneListToggleElement.classList.toggle('enabled');
+    sceneListToggleElement.classList.toggle('disabled');
   }
 
   function startAutorotate() {
